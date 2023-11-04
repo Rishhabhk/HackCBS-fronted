@@ -1,0 +1,45 @@
+.details{
+    margin-top: -200px;
+    margin-left: 250px;
+    font-size: 1.2rem;
+}
+.a mail{
+    margin-top: 20px;
+}
+.cllg{
+    margin-top:7px ;
+}
+.phone{
+    margin-top: 7px;
+}
+.img{
+    margin-top: 20px;
+}
+.image{
+    border-radius: 50%;
+}
+h2{
+    margin-top: 10px;
+}
+.interests{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.int{
+    font-size: 1.5rem;
+}
+.completed{
+    margin-left: 350px;
+    margin-top: -155px;
+}
+.comp{
+    font-size: 1.5rem;
+}
+.incompleted{
+    margin-left: 700px;
+    margin-top: -155px;
+}
+.incomp{
+    font-size: 1.5rem;
+}
+

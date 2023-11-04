@@ -1,0 +1,33 @@
+.header{
+    /* z-index: 10; */
+    /* width: 100%; */
+    /* position: fixed; */
+    /* box-sizing: border-box; */
+    /* top: 0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 10vw; */
+    /* background-color: #127e8c22; */
+    background-color: #127e8c0e;
+}
+.headerDetails{
+    display: flex;
+    gap: 1vw;
+}
+.headerUserDetails{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    gap:1vw;
+}
+.headerUserDetails img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width:720px){
+    .logoContainer p{
+        display: none;
+    }
+}

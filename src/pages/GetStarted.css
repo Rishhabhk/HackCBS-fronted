@@ -1,0 +1,39 @@
+
+.startedWrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-inline: 2rem;
+    padding-top: 4rem;
+}
+.startedImg{
+    max-width: 40rem;
+}
+.startedDetails{
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+@media screen and (max-width:1024px){
+    .startedWrapper{
+        display: flex;
+    }
+    .startedImg{
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px){
+    .startedWrapper{
+        display: block;
+        margin-top: 4rem;
+    }
+    .startedImg{
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #127e8c22; */
+}
+body{
+    /* background-color: #127e8c22; */
+}
+
+.slick-slide > div{
+margin: 0 0.5rem;
+}

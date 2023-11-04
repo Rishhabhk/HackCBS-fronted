@@ -1,0 +1,11 @@
+.notificationWrapper{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    
+}
+.notify{
+    background-color: red;
+}
+.notiAside{
+    background-color: blue;;
+}

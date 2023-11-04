@@ -1,0 +1,35 @@
+.explore{
+    /* background-color: rgb(135, 197, 197); */
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+.exploreMainContent{
+    /* background-color: aqua;     */
+    margin: 1rem 0rem;
+}
+
+.randomWrapper{
+    margin-top: 2rem;
+}
+.randomVids{
+    margin-top: 1.2rem;
+    display: grid;
+    /* background-color: aqua; */
+    /* align-items: center; */
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1rem;
+
+
+}
+.RandomCardContainer{
+    transition: 0.2s ease-in-out;
+}
+.RandomCardContainer:hover{
+    scale: 1.05;
+}
+
+.exploreAsideContent{
+    /* background-color: #effdff; */
+    margin-left: 1rem;
+}

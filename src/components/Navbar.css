@@ -1,0 +1,18 @@
+.navbarContainer{
+    margin-top: 1rem;
+    /* width: 100%; */
+}
+.navbarContainer ul{
+    /* width: 100%; */
+    /* background-color: aqua; */
+    /* text-align: center; */
+}
+.navbarContainer ul li{
+    /* width: 100%; */
+    margin-bottom: 1rem;
+}
+.active{
+    background-color:#127e8c36;
+    padding-bottom: 0.8rem;
+    padding-top: 0.7rem;
+}

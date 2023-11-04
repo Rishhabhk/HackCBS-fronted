@@ -1,0 +1,18 @@
+.homeWrapper{
+    /* background-color: #127e8c22; */
+    height: 100vh;
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: 17% 83%;
+    /* width: 100vw; */
+}
+.navWrapper{
+    background-color: #127e8c0e;
+}
+.mainWrapper{
+    background-color: #127e8c47;
+    padding-left: 1rem;
+}
+/* .asideWrapper{
+    background-color: #127e8c0e;
+} */
