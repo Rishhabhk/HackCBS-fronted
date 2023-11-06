@@ -1,5 +1,4 @@
 import React from 'react'
-import on from './on.jpeg'
 import './Profile.css';
 import userPic from '../../assets/pic.jpeg'
 const Profile = () => {
@@ -9,11 +8,11 @@ const Profile = () => {
     <>
       <div className='profile'>
         <div className='img'>
-          <img className='image' src={userPic} width='200' />
+          <img className='image' src={userPic} width='200' alt='' />
         </div>
         <div className='details'>
           <h2>Rishabh Kushwaha</h2>
-          <a className='mail' href="mailto:rishabhkushwaha08@gmail.com">rishabhkushwaha08@gmail.com</a>
+          <a className='mail' href="mailto:rishabhkushwaha08@gmail.com">{mail}</a>
           <p className='cllg'>KIET group of institutions</p>
           <p className='phone'>9988998899</p>
           <a className='link' href={url}>Connect via Linkdln</a>

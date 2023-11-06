@@ -2,7 +2,6 @@ import React from 'react'
 import { HotsData } from '../../data/HotsData'
 import { BlogsData } from '../../data/BlogsData';
 import { Typography } from '@mui/material'
-import { Link } from "react-router-dom";
 import './HotsBlogs.css';
 
 const HotsBlogs = () => {

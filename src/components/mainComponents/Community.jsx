@@ -1,7 +1,5 @@
 import React from 'react'
 import './Community.css';
-import on from './on.jpeg'
-import File from './File';
 import userImg from '../../assets/pic.jpeg'
 import { Button, TextField, Typography } from '@mui/material'
 import { CommunityPostData } from '../../data/CommunityPostData';
@@ -38,7 +36,7 @@ const Community = () => {
               <input id='imgInp' type="file" />
             </div>
             <div className="postBtn">
-              <Button size="small" type='submit' variant="contained">POST</Button>
+              <Button size="medium" type='submit' variant="contained">POST</Button>
             </div>
           </div>
         </form>

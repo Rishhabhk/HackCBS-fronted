@@ -1,7 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import {Button, AppBar,Toolbar} from '@mui/material';
-import logo from '../assets/logo.png';
 import userImage from '../assets/pic.jpeg';
 
 
@@ -17,7 +16,7 @@ const Header = ({loggedIn, signedUp}) => {
     <Toolbar className='header' variant='regular'>
         <div className='logoContainer'>
           <p onClick={()=> navigate("/home/explore")}>
-            <img  src={logo} alt="" width="220" height="40"/>
+            Onestop
           </p>
         </div>
 

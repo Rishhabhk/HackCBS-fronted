@@ -1,6 +1,5 @@
 import React from 'react'
 import './Task.css';
-import { AiOutlineCheck } from "react-icons/ai";
 import HotsBlogs from './HotsBlogs';
 import { Button, TextField, Typography } from '@mui/material'
 import { TaskData } from '../../data/TaskData';
@@ -22,9 +21,9 @@ const Task = () => {
     event.preventDefault()
   }
   return (
-    <>
+    
       <div className='taskwrapper'>
-        <div className='taskone'>
+        <div className='addTaskForm'>
           <form onSubmit={handlefunc}>
             <Typography style={{ display: 'flex', justifyContent: 'center' }}>ADD YOUR TASK</Typography>
             <TextField
@@ -48,7 +47,7 @@ const Task = () => {
               value={form.description} />
             <Button className='submit' type='submit' variant='contained'>Add task</Button>
           </form>
-          <div className='taskthree'>
+          <div className='taskVidContainerClass'>
             <Typography variant='h6' style={{display:'flex', justifyContent:'center'}}>Tasks</Typography>
             <div className='taskContainer'>
               {
@@ -66,7 +65,7 @@ const Task = () => {
           <HotsBlogs />
         </div>
       </div>
-    </>
+    
   )
 }
 export default Task
